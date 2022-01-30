@@ -4,6 +4,8 @@ import Hero from './components/hero/Hero';
 import About from "./components/About/About";
 import Developer from "./components/developer/Developer";
 import Subscribe from "./components/subcribe/Subscribe";
+import Footer from "./components/footer/Footer";
+
 const App = () => {
     return (
         <div>
@@ -12,6 +14,7 @@ const App = () => {
             <About/>
             <Developer/>
             <Subscribe/>
+            <Footer/>
         </div>
     );
 };
